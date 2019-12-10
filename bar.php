@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Foo</title>
+		<title>Bar</title>
 		<meta charset="utf-8" />
 	</head>
 	<body>
