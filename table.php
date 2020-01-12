@@ -6,10 +6,10 @@
 	</head>
 	<body>
 		<a id="foo" href="index.php">Foo</a>
-        <table id="table">
+        <table id="table" style="border: 1px solid black">
             <tbody> 
                 <tr> 
-                    <td>Zahlen</td>
+                    <th>Zahlen</th>
                 </tr>
                 <tr> 
                     <td>5</td>
@@ -22,5 +22,19 @@
                 </tr>
             </tbody>
         </table>
+        <button id="sumBtn" onclick="sum()">Summe</button>
+        <button id="avgBtn" onclick="avg()">Durchschnitt</button>
+        <div contenteditable="true" id="result"></div>
+
+
+    <script>
+        function sum(){
+            document.getElementById("result").innerHTML = "22";
+        }
+        function avg(){
+            document.getElementById("result").innerHTML = "5";
+        }
+  </script>
+
 	</body>
 </html>
