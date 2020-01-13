@@ -18,7 +18,7 @@
                     <td>6</td>
                 </tr>
                 <tr> 
-                    <td>11</td>
+                    <td>10</td>
                 </tr>
             </tbody>
         </table>
@@ -29,10 +29,10 @@
 
     <script>
         function sum(){
-            document.getElementById("result").innerHTML = "22";
+            document.getElementById("result").innerHTML = "21";
         }
         function avg(){
-            document.getElementById("result").innerHTML = "5";
+            document.getElementById("result").innerHTML = "6.9";
         }
   </script>
 
